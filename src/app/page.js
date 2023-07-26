@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../../public/dev-ed-wave.png";
+import picture from "../../public/picture.jpg";
 import code from "../../public/code.png";
 import design from "../../public/design.png";
 import consulting from "../../public/consulting.png";
@@ -34,7 +34,7 @@ import web6 from "../../public/web6.png";
             <h1 className='text-xl font-burtons uppercase'>Portfolio</h1>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' /></li>
-              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="#">Resume</a></li>
+              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://drive.google.com/file/d/1XHgx15fOWqHLk29Fvcq0tsHQ1u1g4xm1/view?usp=sharing">Resume</a></li>
             </ul>
           </nav>
           <div className='text-center p-10'>
@@ -49,7 +49,7 @@ import web6 from "../../public/web6.png";
             <a href="https://github.com/Tausifnsr" target="_blank"><AiFillGithub /></a>
           </div>
           <div className=' relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
-            <Image src={deved} layout='fill' objectFit='cover' alt="3ddesign"/>
+            <Image src={picture} layout='fill' objectFit='cover' alt="3ddesign"/>
           </div>
         </section>
         {/* First Section Ends Here  */}
@@ -134,9 +134,9 @@ import web6 from "../../public/web6.png";
               </div>
             </div>
         </section>
-        <footer className="flex mx-auto w-[80%] h-16 uppercase tracking-wider dark:text-gray-200">
-        <div className="inline-flex mx-auto mt-5">
-        Made with<AiFillHeart className="text-red-500 text-2xl" /> <span className="font-bold">By Md Tausif Ansari</span>
+        <footer className="flex mx-auto w-[80%] h-16 uppercase dark:text-gray-200">
+        <div className="inline-flex text-xs mx-auto mt-5">
+        Made With <AiFillHeart  className="text-red-500 text-lg"/> By Md Tausif Ansari
         </div>
       </footer>
       </main>
