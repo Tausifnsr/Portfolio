@@ -34,7 +34,7 @@ import web6 from "../../public/web6.png";
             <h1 className='text-xl font-burtons uppercase'>Portfolio</h1>
             <ul className='flex items-center'>
               <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' /></li>
-              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://drive.google.com/file/d/1XHgx15fOWqHLk29Fvcq0tsHQ1u1g4xm1/view?usp=sharing" target="_blank">Resume</a></li>
+              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="https://drive.google.com/file/d/1_YTSCxcxrzS-2HBJB7aK2AgAdqfcBGty/view?usp=sharing" target="_blank">Resume</a></li>
             </ul>
           </nav>
           <div className='text-center p-10'>
