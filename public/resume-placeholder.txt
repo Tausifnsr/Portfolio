@@ -1,0 +1,1 @@
+Replace this file with your resume.pdf and update developer.resume in src/data/siteData.js.

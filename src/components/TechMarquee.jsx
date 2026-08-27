@@ -1,0 +1,2 @@
+const tech = ['ReactJS','React Native','Django','PostgreSQL','Firebase','Docker','Nginx','Git','REST APIs','Node.js','Tailwind CSS']
+export default function TechMarquee() { const row = [...tech,...tech]; return <div className="marquee-wrap" aria-label="Technology stack"><div className="marquee marquee-left">{row.map((x,i)=><span key={`${x}-${i}`}>{x}<i>✦</i></span>)}</div><div className="marquee marquee-right">{row.map((x,i)=><span key={`${x}-${i}`}>{x}<i>✦</i></span>)}</div></div> }
